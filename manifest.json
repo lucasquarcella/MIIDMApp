@@ -1,6 +1,6 @@
 {
-	"short_name": "Miidm App",
-	"name": "MiidmApp",
+	"short_name": "MIIDM App",
+	"name": "MIIDMApp",
 	"icons": [{
 		"src": "/res/piccolo_192.png",
 		"type": "image/png",
