@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+* {font-family: 'Josefin Sans';}
+
+body, html {
+	background-color: #34495e;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+body {margin: 0 10vw 0 10vw;}
+
+#titolo {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 2rem;
+  color: #f1c40e;
+	margin-top: 8vw;
+	word-wrap: break-word;
+}
+
+#codice {
+	color: white;
+	font-size: 1rem;
+	text-align: right;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 2vh;
+}
+
+#codice {margin-top: 0.5vh;}
+
+#descrizioneTitle {
+	color: #f1c40e;
+	font-size: 1.3rem;
+	padding-top: 2vh;
+}
+
+#descrizione {color: white; padding-bottom: 2vh;}
+
+#dimensioni {
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: auto auto auto;
+	grid-gap: 5%;
+	color: white;
+	margin: 5% 5% 5% 5%;
+}
+
+#dimensioni p.indicazione {
+  text-align: center;
+	margin: 0.2em;
+	font-size: 0.7rem;
+}
+
+#dimensioni p.valoreMisura {
+	text-align: center;
+	margin: 0.2em;
+	font-size: 1rem;
+}
+
+i.fas {text-align: center;}
+
+.separe {color: #f1c40e; border-bottom: 4px double white;}
+
+.mySlides {display:none; margin-top: 3vh;}
+
+button {
+	width: 25%;
+	height: 5vh;
+	font-size: 2rem;
+	background-color: #34495e;
+	color: #f1c40e;
+	border: none;
+	margin-top: 3vh;
+}
+
+#but_left {float: left;}
+#but_right {float: right;}
